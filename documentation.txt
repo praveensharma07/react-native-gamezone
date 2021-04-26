@@ -1,0 +1,26 @@
+Step 1: installed expo using npm install -g expo-cli
+//https://reactnative.dev/docs/0.60/enviroment-setup//
+
+Step 2: create project using expo init projectname
+cd into project folder
+start project using npm start
+
+Step3: install react-navigation
+https://reactnavigation.org/docs/getting-started
+npm install @react-navigation/native
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+
+Step 4: //https://reactnavigation.org/docs/tab-based-navigation///
+navigation added from this link
+
+resources used:
+1: https://reactnativeelements.com/docs/searchbar/#searchicon( for search icon and image)
+2: Tutorial Followed by me : https://www.youtube.com/playlist?list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d
+3: https://reactnative.dev/docs/getting-started(flex box, styling, states )
+4: react-native-svg: for svg images:https://docs.expo.io/versions/latest/sdk/svg/
+
+/********************Project Structure**************************/
+folder assets: holds the images (logo.png,jelly.jpg,undraw)
+folder screens: holds the home screen and profile screen
+folder styles: holds global styles for the project
+App.js: holds the code for navigation and assembles all the components 
